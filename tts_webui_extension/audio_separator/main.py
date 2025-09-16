@@ -27,18 +27,17 @@ from tts_webui.extensions_loader.decorator_extensions import (
 def extension__tts_generation_webui():
     main_ui()
     return {
-        "package_name": "extension_audio_separator",
+        "package_name": "tts_webui_extension.audio_separator",
         "name": "Audio Separator",
-        "version": "0.0.1",
-        "requirements": "git+https://github.com/rsxdalv/extension_audio_separator@main",
+        "requirements": "git+https://github.com/rsxdalv/tts_webui_extension.audio_separator@main",
         "description": "Audio Separator allows separating audio files into multiple audio files.",
         "extension_type": "interface",
         "extension_class": "audio-conversion",
         "author": "rsxdalv",
         "extension_author": "rsxdalv",
         "license": "MIT",
-        "website": "https://github.com/rsxdalv/extension_audio_separator",
-        "extension_website": "https://github.com/rsxdalv/extension_audio_separator",
+        "website": "https://github.com/nomadkaraoke/python-audio-separator",
+        "extension_website": "https://github.com/rsxdalv/tts_webui_extension.audio_separator",
         "extension_platform_version": "0.0.1",
     }
 

@@ -1,13 +1,13 @@
 import setuptools
 
 setuptools.setup(
-    name="extension_audio_separator",
+    name="tts_webui_extension.audio_separator",
     packages=setuptools.find_namespace_packages(),
     version="0.0.1",
     author="rsxdalv",
     description="Audio Separator",
     license="MIT",
-    url="https://github.com/rsxdalv/extension_audio_separator",
+    url="https://github.com/rsxdalv/tts_webui_extension.audio_separator",
     project_urls={},
     scripts=[],
     install_requires=[
