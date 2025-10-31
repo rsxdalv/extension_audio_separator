@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tts_webui_extension.audio_separator"
+version = "0.0.1"
+description = "Audio Separator"
+authors = [
+    {name = "rsxdalv"}
+]
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "audio-separator",
+    "protobuf==4.25.3",
+    "onnxruntime-gpu==1.18.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/rsxdalv/tts_webui_extension.audio_separator"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+# This will find all namespace packages automatically
+namespaces = true
